@@ -1,14 +1,27 @@
-// import images
-//import Hero_person from "./assets/images/Hero/person.png";
+/**
+ * !Hero section main picture import
+ */
 import Hero_person from "./assets/images/Hero/emile-suit-1.png";
 
+/**
+ * !Skills section pictures import
+ */
+import my3ddesign from "./assets/images/Skills/3ddesign.png";
+import my3dprinting from "./assets/images/Skills/3dprinting.png";
+import cimema4d from "./assets/images/Skills/cinema4d.png";
 import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
-import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import illustrator from "./assets/images/Skills/illustrator.png";
+import indesign from "./assets/images/Skills/indesign.png";
+import office from "./assets/images/Skills/office.png";
+import penrose from "./assets/images/Skills/penrose.png";
+import solidworks from "./assets/images/Skills/solidworks.png";
+import stratasys from "./assets/images/Skills/stratasys.png";
 
+/**
+ * ! Services section pictures import
+ */
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
@@ -67,7 +80,7 @@ export const content = {
     hero_content: [
       {
         count: "8+",
-        text: "Years of Experience in Indusrty",
+        text: "Years of Experience in Industry",
       },
       {
         count: "30+",
@@ -85,19 +98,19 @@ export const content = {
         logo: figma,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
-      },
-      {
         name: "Adobe Photoshop",
         para: "Lorem ipsum text  dummy",
         logo: ps,
       },
       {
-        name: "React js",
+        name: "Adobe Illustrator",
         para: "Lorem ipsum text  dummy",
-        logo: reactjs,
+        logo: illustrator,
+      },
+      {
+        name: "Adobe InDesign",
+        para: "Lorem ipsum text  dummy",
+        logo: indesign,
       },
       {
         name: "Sketch",
@@ -105,9 +118,39 @@ export const content = {
         logo: sketch,
       },
       {
-        name: "Python",
+        name: "3D Design",
         para: "Lorem ipsum text  dummy",
-        logo: python,
+        logo: my3ddesign,
+      },
+      {
+        name: "3D Printing",
+        para: "Lorem ipsum text  dummy",
+        logo: my3dprinting,
+      },
+      {
+        name: "Cinema 4D",
+        para: "Lorem ipsum text  dummy",
+        logo: cimema4d,
+      },
+      {
+        name: "Penrose",
+        para: "Lorem ipsum text  dummy",
+        logo: penrose,
+      },
+      {
+        name: "Solidworks",
+        para: "Lorem ipsum text  dummy",
+        logo: solidworks,
+      },
+      {
+        name: "Stratasys",
+        para: "Lorem ipsum text  dummy",
+        logo: stratasys,
+      },
+      {
+        name: "Office Suite",
+        para: "Lorem ipsum text  dummy",
+        logo: office,
       },
     ],
     icon: MdArrowForward,
