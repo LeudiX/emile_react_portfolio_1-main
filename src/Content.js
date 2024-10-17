@@ -22,9 +22,9 @@ import stratasys from "./assets/images/Skills/stratasys.png";
 /**
  * ! Services section pictures import
  */
-import services_logo1 from "./assets/images/Services/logo1.png";
-import services_logo2 from "./assets/images/Services/logo2.png";
-import services_logo3 from "./assets/images/Services/logo3.png";
+import printing_service from "./assets/images/Services/3dprint-1.png";
+import suit_design_service from "./assets/images/Services/suit-1.png";
+import footwear_service from "./assets/images/Services/boots.png";
 
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
@@ -90,8 +90,13 @@ export const content = {
   },
   skills: {
     title: "Skills",
-    subtitle: "MY TOP SKILLS",
+    subtitle: "MY BEST SKILLS",
     skills_content: [
+      {
+        name: "Office Suite",
+        para: "Lorem ipsum text  dummy",
+        logo: office,
+      },
       {
         name: "Figma",
         para: "Lorem ipsum text  dummy",
@@ -146,39 +151,34 @@ export const content = {
         name: "Stratasys",
         para: "Lorem ipsum text  dummy",
         logo: stratasys,
-      },
-      {
-        name: "Office Suite",
-        para: "Lorem ipsum text  dummy",
-        logo: office,
-      },
+      }
     ],
     icon: MdArrowForward,
   },
   services: {
     title: "Services",
-    subtitle: "WHAT I OFFER",
+    subtitle: "SPECIALIZED IN",
     service_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo1,
+        title: "3D Printing",
+        para: "In 3D printing, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: printing_service,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
+        title: "Custom Suit Production",
+        para: "In designing and custom suit production, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: suit_design_service,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
+        title: "Custom Footwear Production",
+        para: "In designing and custom footwear production, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: footwear_service,
       },
     ],
   },
   Projects: {
     title: "Projects",
-    subtitle: "MY CREATION",
+    subtitle: "MY FINNEST CREATIONS",
     image: person_project,
     project_content: [
       {

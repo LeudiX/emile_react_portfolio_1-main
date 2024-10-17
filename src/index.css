@@ -65,7 +65,11 @@
   .subtitle {
     @apply text-white;
   }
+  .subtitle-services {
+    @apply text-neutral-500;
+  }
 }
+
 .swiper-pagination-bullet {
   @apply w-3 h-3 bg-black;
 }
@@ -76,5 +80,5 @@
 }
 
 .bg-skillsLinear {
-  background-image: linear-gradient(90deg, #222325 0.5%, #f1f1f1 70%);
+  background-image: linear-gradient(180deg, #f1f1f1 0.5%, #222325 50%);
 }
