@@ -11,7 +11,7 @@ import { Pagination } from "swiper";
 const Projects = () => {
   const { Projects } = content;
   return (
-    <section className="bg-bg_light_primary" id="projects">
+    <section className="bg-projectsLinear" id="projects">
       <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
         <div>
           <h2 className="title" data-aos="fade-down">
@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
         <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
           <img
-            src={Projects.image}
+            src={Projects.image_portrait}
             alt="..."
             data-aos="fade-right"
             className="max-w-[45vw] min-w-[22rem]"

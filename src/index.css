@@ -80,5 +80,9 @@
 }
 
 .bg-skillsLinear {
-  background-image: linear-gradient(180deg, #f1f1f1 0.5%, #222325 50%);
+  background-image: linear-gradient(180deg, #f1f1f1 0.5%, #494b4d 50%, #222325 75%);
+}
+
+.bg-projectsLinear {
+  background-image: linear-gradient(90deg, #f1f1f1 0.5%, #222325 75%);
 }

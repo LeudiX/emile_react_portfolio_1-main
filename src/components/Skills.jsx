@@ -80,7 +80,7 @@ const Skills = () => {
           {skills.skills_content.map((skill, i) => (
             <div
               key={i}
-              data-aos="fade-up"
+              data-aos={skill.data_aos_animation}
               data-aos-delay={i * 400}
               className="bg-white sm:cursor-pointer 
                relative group w-full flex items-center

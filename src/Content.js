@@ -6,18 +6,18 @@ import Hero_person from "./assets/images/Hero/emile-suit-1.png";
 /**
  * !Skills section pictures import
  */
-import my3ddesign from "./assets/images/Skills/3ddesign.png";
-import my3dprinting from "./assets/images/Skills/3dprinting.png";
-import cimema4d from "./assets/images/Skills/cinema4d.png";
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
-import illustrator from "./assets/images/Skills/illustrator.png";
-import indesign from "./assets/images/Skills/indesign.png";
-import office from "./assets/images/Skills/office.png";
-import penrose from "./assets/images/Skills/penrose.png";
-import solidworks from "./assets/images/Skills/solidworks.png";
-import stratasys from "./assets/images/Skills/stratasys.png";
+import my3ddesign from "./assets/images/Skills/3ddesign-modified.png";
+import my3dprinting from "./assets/images/Skills/3dprinting-modified.png";
+import cimema4d from "./assets/images/Skills/cinema4d-modified.png";
+import figma from "./assets/images/Skills/figma-modified.png";
+import sketch from "./assets/images/Skills/sketch-modified.png";
+import ps from "./assets/images/Skills/ps-modified.png";
+import illustrator from "./assets/images/Skills/illustrator-modified.png";
+import indesign from "./assets/images/Skills/indesign-modified.png";
+import office from "./assets/images/Skills/office-modified.png";
+import penrose from "./assets/images/Skills/penrose-modified.png";
+import solidworks from "./assets/images/Skills/solidworks-modified.png";
+import stratasys from "./assets/images/Skills/stratasys-modified.png";
 
 /**
  * ! Services section pictures import
@@ -25,11 +25,15 @@ import stratasys from "./assets/images/Skills/stratasys.png";
 import printing_service from "./assets/images/Services/3dprint-1.png";
 import suit_design_service from "./assets/images/Services/suit-1.png";
 import footwear_service from "./assets/images/Services/boots.png";
+import product_design_service from "./assets/images/Services/design-service.png";
 
+/**
+ * ! Projects section pictures and profile import
+ */
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
+import image_portrait from "./assets/images/projects/emile_portrait-1.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -96,61 +100,73 @@ export const content = {
         name: "Office Suite",
         para: "Lorem ipsum text  dummy",
         logo: office,
+        data_aos_animation:"fade-up-right"
       },
       {
         name: "Figma",
         para: "Lorem ipsum text  dummy",
         logo: figma,
+         data_aos_animation:"fade-up-left"
       },
       {
         name: "Adobe Photoshop",
         para: "Lorem ipsum text  dummy",
         logo: ps,
+        data_aos_animation:"fade-up-right"
       },
       {
         name: "Adobe Illustrator",
         para: "Lorem ipsum text  dummy",
         logo: illustrator,
+        data_aos_animation:"fade-up-left"
       },
       {
         name: "Adobe InDesign",
         para: "Lorem ipsum text  dummy",
         logo: indesign,
+        data_aos_animation:"fade-up-right"
       },
       {
         name: "Sketch",
         para: "Lorem ipsum text  dummy",
         logo: sketch,
+        data_aos_animation:"fade-up-left"
       },
       {
         name: "3D Design",
         para: "Lorem ipsum text  dummy",
         logo: my3ddesign,
+        data_aos_animation:"fade-up-right"
       },
       {
         name: "3D Printing",
         para: "Lorem ipsum text  dummy",
         logo: my3dprinting,
+        data_aos_animation:"fade-up-left"
       },
       {
         name: "Cinema 4D",
         para: "Lorem ipsum text  dummy",
         logo: cimema4d,
+        data_aos_animation:"fade-up-right"
       },
       {
         name: "Penrose",
         para: "Lorem ipsum text  dummy",
         logo: penrose,
+        data_aos_animation:"fade-up-left"
       },
       {
         name: "Solidworks",
         para: "Lorem ipsum text  dummy",
         logo: solidworks,
+        data_aos_animation:"fade-up-right"
       },
       {
         name: "Stratasys",
         para: "Lorem ipsum text  dummy",
         logo: stratasys,
+        data_aos_animation:"fade-up-left"
       }
     ],
     icon: MdArrowForward,
@@ -160,26 +176,31 @@ export const content = {
     subtitle: "SPECIALIZED IN",
     service_content: [
       {
+        title: "Product Designing",
+        para: "In products design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: product_design_service,
+      },
+      {
         title: "3D Printing",
         para: "In 3D printing, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: printing_service,
       },
       {
-        title: "Custom Suit Production",
-        para: "In designing and custom suit production, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: suit_design_service,
+        title: "Footwear Production",
+        para: "In designing  custom footwear production, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: footwear_service,
       },
       {
-        title: "Custom Footwear Production",
-        para: "In designing and custom footwear production, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: footwear_service,
+        title: "Fashion Gear Production",
+        para: "In designing  custom fashion gear production, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: suit_design_service,
       },
     ],
   },
   Projects: {
     title: "Projects",
-    subtitle: "MY FINNEST CREATIONS",
-    image: person_project,
+    subtitle: "MY FINNEST WORK",
+    image_portrait: image_portrait,
     project_content: [
       {
         title: "Gym Website",
