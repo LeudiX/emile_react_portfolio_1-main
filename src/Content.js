@@ -35,6 +35,9 @@ import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
 import image_portrait from "./assets/images/projects/emile_portrait-1.png";
 
+/**
+ * ! Testimonials section pictures import
+ */
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
@@ -43,7 +46,7 @@ import avatar4 from "./assets/images/Testimonials/avatar4.png";
 import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
-// import icons from react-icons
+// Import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";

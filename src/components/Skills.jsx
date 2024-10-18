@@ -38,8 +38,10 @@ const Skills = () => {
     <section className="min-h-fit bg-skillsLinear" id="skills">
       {/* modal */}
       <Modal
+        closeTimeoutMS={500}
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
+        shouldCloseOnOverlayClick={true}
         style={customStyles}
       >
         <div className="flex items-center gap-2">
