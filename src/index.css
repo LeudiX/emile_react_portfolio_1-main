@@ -55,9 +55,13 @@
 }
 
 @layer utilities {
-  .btn {
+  .btn-hero {
     @apply py-2 px-9 border-2 rounded-md
      border-black rounded-br-3xl font-medium;
+  }
+  .btn-hireme {
+    @apply py-2 px-9 border-2 rounded-md
+     border-neutral-400 rounded-br-3xl font-medium;
   }
   .title {
     @apply md:text-3xl text-2xl;
@@ -65,7 +69,7 @@
   .subtitle {
     @apply text-white;
   }
-  .subtitle-services {
+  .subtitle-services,.subtitle-testimonials, .subtitle-contact {
     @apply text-neutral-500;
   }
 }
@@ -85,6 +89,10 @@
 
 .bg-projectsLinear {
   background-image: linear-gradient(90deg, #f1f1f1 0.5%, #222325 75%);
+}
+
+.bg-hiremeLinear {
+  background-image: linear-gradient(45deg,#222325 0.5%, #494b4d 45%, #f1f1f1 75%);
 }
 
 

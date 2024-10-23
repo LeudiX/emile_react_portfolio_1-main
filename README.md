@@ -20,7 +20,7 @@ pnpm run dev
 + aos scroll animation
 + and more....
 
-## Special thanks to
+## Special thanks to for this amazing initial setup
 
 [Repository](https://github.com/Sridhar-C-25)
 

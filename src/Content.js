@@ -30,10 +30,14 @@ import product_design_service from "./assets/images/Services/design-service.png"
 /**
  * ! Projects section pictures and profile import
  */
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
-import image_portrait from "./assets/images/projects/emile_portrait-1.png";
+import project1 from "./assets/images/projects/racine_boots05.png";
+import project2 from "./assets/images/projects/racine_bracers02.png";
+import project3 from "./assets/images/projects/racine_fakir_boots01.png";
+import project4 from "./assets/images/projects/racine_jacket02.png";
+import project5 from "./assets/images/projects/racine_jacket05.png";
+import project6 from "./assets/images/projects/racine_shoes.png";
+import project7 from "./assets/images/projects/racine_urchin_necklace01.png";
+import image_portrait from "./assets/images/projects/emile_mask_original.png";
 
 /**
  * ! Testimonials section pictures import
@@ -42,9 +46,12 @@ import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
+import avatar5 from "./assets/images/Testimonials/avatar5.png";
+import avatar6 from "./assets/images/Testimonials/avatar6.png";
+import avatar7 from "./assets/images/Testimonials/avatar7.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+import Hireme_person from "./assets/images/Hireme/emile_smile.png";
+import Hireme_person2 from "./assets/images/Hireme/emile_workout00.png";
 
 // Import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -202,21 +209,37 @@ export const content = {
   },
   Projects: {
     title: "Projects",
-    subtitle: "MY FINNEST WORK",
+    subtitle: "MY FINNEST WORKS",
     image_portrait: image_portrait,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Celestial Boots",
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "Cool Bracers",
         image: project2,
       },
       {
-        title: "Creative Website",
+        title: "Fakir Boots",
         image: project3,
       },
+      {
+        title: "Racine & Lil Nas Jacket",
+        image: project4,
+      },
+      {
+        title: "Racine Jacket",
+        image: project5,
+      },
+      {
+        title: "Racine Shoes",
+        image: project6,
+      },
+      {
+        title: "Urchin Necklace",
+        image: project7,
+      }
     ],
   },
   Testimonials: {
@@ -247,6 +270,24 @@ export const content = {
         img: avatar4,
         name: "ROBBIN",
       },
+      {
+        review:
+          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        img: avatar5,
+        name: "Jane Doe",
+      },
+      {
+        review:
+          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        img: avatar6,
+        name: "Lilly Durk",
+      },
+      {
+        review:
+          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        img: avatar7,
+        name: "Lucy Shepard",
+      },
     ],
   },
   Hireme: {
@@ -258,13 +299,13 @@ export const content = {
     btnText: "Hire Me",
   },
   Contact: {
-    title: "Contect Me",
-    subtitle: "GET IN TOUCH",
+    title: "Contact Me",
+    subtitle: "LET'S GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "designbyracine@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:designbyracine@gmail.com",
       },
       {
         text: "+91 1234 56778",
@@ -272,9 +313,9 @@ export const content = {
         link: "https://wa.me/1234567890",
       },
       {
-        text: "codeaprogram",
+        text: "designbyracine",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/designbyracine/",
       },
     ],
   },
